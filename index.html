@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <header>
+      <h1>Take our Survey</h1>
+    </header>
+      <div class="container">
+        <p><h1>Please enter your name</h1></p>
+        <form id="formOne">
+        <div class="jumbotron">
+          <div class="form-group">
+            <label for="name"></label>
+            <input id="name" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="color">What is your favorite color?</label>
+          <input id="color" class="form-control" type="color">
+        </div>
+        <div class="form-group">
+          <label for="drink">What is your favorite drink</label>
+          <select class="form-control" id="beverage">
+            <option value="coffee">Coffee</option>
+            <option value="tea">Tea</option>
+            <option value="kombucha">Kombucha</option>
+            <option value="water">Water</option>
+          </select>
+        </div>
+        <br>
+        <label for="iceCream">What ice-cream do you prefer</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="chocolate" checked>
+            Chocolate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="vanilla">
+            Vanilla
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="cookiesandcream">
+            Cookies & Cream
+          </label>
+        </div>
+        <div class="button">
+          <button class="btn btn-success" id="button1">Submit</button>
+        </div>
+        </form>
+
+        <div class="try">
+        </div>
+      </div>
+      <!-- <div class="container" id="output">
+        <p>Hello, <span id="name"></span> It looks like you enjoy <span id="food"></span> while listening to <span id="genre"></span> in a <span id="hexCode"></span> room. That's so cool. You seem like a really cool person.</p>
+      </div> -->
+  </body>
+</html>
+
+
+
+<!-- <div class="form-group">
+<label for="born">Date of birth:</label>
+<input id="born" class="form-control" type="date">
+</div> -->
